@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assunção Web</title>
+    <link rel="icon" href="./aw.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("RM48ruvO_c3Q0j81j");
+    })();
+</script>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Assunção<span>Web.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Assunção Web</a></li>
+                <li><a href="#about" class="menu-btn">Sobre</a></li>
+                <li><a href="#services" class="menu-btn">Serviços</a></li>
+                <li><a href="#skills" class="menu-btn">Habilidades</a></li>
+                <li><a href="#teams" class="menu-btn">Projetos</a></li>
+                <li><a href="#contact" class="menu-btn">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Olá, meu nome é</div>
+                <div class="text-2">Daniel Assunção</div>
+                <div class="text-3">Sou um <span class="typing"></span></div>
+                <a href="https://wa.me/5547988661111" target="_blank">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre mim</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/web-dev.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Sou um <span class="typing-2"></span></div>
+                    <p>Você possui um negócio e quer divulgar ele na internet, com a 
+                    possibilidade dos clientes entrarem em contato com você, seja por e-mail ou
+                    whatsapp? Ou talvez quer um desgin para o seu site de e-commerce? 
+                    Nesse caso, posso ajudar. Sou um Web Designer. Crio sites profissionais com design 
+                    moderno e visando colocar seu negócio em evidência. Também atuo na divulgação
+                    do mesmo, para aumentar a exposição e faturamento.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Minhas habilidades</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>Planejo e desenvolvo sites na internet, seja ele uma clinica, blog, escritório, restaurante, etc.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Propaganda</div>
+                        <p>Gero tráfego para o site na internet, gerando cliques em canais pagos, como Google e Social Ads.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Publicação</div>
+                        <p>Publico seu site na internet, com seu próprio domínio, gerando mais exposição</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Meus Certificados</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Minha especialidade é Web Design</div>
+                    <p>No momento, trabalho exclusivamente com design de sites e divulgação do mesmo. Possuo certificados no CodeCademy, Udemy e Prodabel. Tenho grande conhecimento em HTML, CSS e JavaScript, 
+                        o que me permite criar sites responsivos e interativos. Também possuo conhecimento básico de React Redux, possibilitando a 
+                        criação de sites um pouco mais complexos.  
+
+                    </p>
+                </div>
+                <div class="column right">
+                    <img src="./images/certificados.png" width="300" height="450" id="certificados">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Meus Projetos</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <a href="https://danielluis07.github.io/sportys/" target="_blank"><img src="images/sportys.png" alt=""></a>
+                        <div class="text"><a href="https://danielluis07.github.io/sportys/" target="_blank">Sportys</a></div>
+                        <p>Um blog cobrindo tudo sobre sobre NBA e NFL</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://danielluis07.github.io/vignollirestaurante/" target="_blank"><img src="images/vignolli.png" alt=""></a>
+                        <div class="text"><a href="https://danielluis07.github.io/vignollirestaurante/" target="_blank">Vignolli</a></div>
+                        <p>Um restaurante especializado em comida italiana.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://danielluis07.github.io/academia/" target="_blank"><img src="images/academy's.png" alt=""></a>
+                        <div class="text"><a href="https://danielluis07.github.io/academia/" target="_blank">Academy's</a></div>
+                        <p>Um site divulgando uma academia com blog</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://danielluis07.github.io/barber/" target="_blank"><img src="images/barba.png" alt=""></a>
+                        <div class="text"><a href="https://danielluis07.github.io/barber/" target="_blank">Barba & Beleza</a></div>
+                        <p>Um recinto que oferce serviços de barbearia e spa</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a href="https://danielluis07.github.io/vortex/" target="_blank"><img src="images/vortex.png" alt=""></a>
+                        <div class="text"><a href="https://danielluis07.github.io/vortex/" target="_blank">Vortex</a></div>
+                        <p>O design de um site de e-commerce</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Daniel Luís de</div>
+                                <div class="sub-title">Assunção</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Endereço</div>
+                                <div class="sub-title">Rua Exp. Aleandro Stedile, 315 - Rio do Sul/SC</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">daniel.luis@unidavi.edu.br</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Envie uma mensagem</div>
+                    <form>
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" id="name" placeholder="Seu Nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" id="email" placeholder="Seu Email" required>
+                            </div>
+                        </div>
+                    
+                        <div class="field textarea">
+                            <textarea cols="30" id="message" rows="10" placeholder="Mensagem..." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit" onclick="sendMail()">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Telefone: (47) 98866-1111</span>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
